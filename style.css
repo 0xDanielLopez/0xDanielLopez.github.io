@@ -198,7 +198,7 @@ a:not(.findmeon) i {
 
 .popup-quote {
     font-family : Baskerville, Georgia, serif;
-    font-style : italic;
+    /* font-style : italic; */
     position: flex;
     color: var(--accentColor);
     padding: 20px;
