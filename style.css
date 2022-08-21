@@ -16,7 +16,7 @@ body {
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
     /* background-image: url('https://www.xtrafondos.com/wallpapers/blue-vortex-3d-3594.jpg'); */
     /* background-image: url('https://www.xtrafondos.com/wallpapers/textura-reciclado-arrugado-azul-64.jpg'); */
-    background-image: url('https://www.xtrafondos.com/wallpapers/patron-de-lineas-negro-7938.jpg');
+    background-image: url('https://www.xtrafondos.com/wallpapers/anochecer-en-montana-y-mar-476.jpg');
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
