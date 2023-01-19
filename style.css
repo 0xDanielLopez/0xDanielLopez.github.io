@@ -14,9 +14,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    /* background-image: url('https://www.xtrafondos.com/wallpapers/blue-vortex-3d-3594.jpg'); */
-    /* background-image: url('https://www.xtrafondos.com/wallpapers/textura-reciclado-arrugado-azul-64.jpg'); */
-    /* background-image: url('https://www.xtrafondos.com/wallpapers/textura-madera-en-negro-2802.jpg'); */
+    /* background-image: url('https://bit.ly/3nFVqJh'); */
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -61,7 +59,7 @@ body {
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
-    /*text-align: center;*/ /* Commented by @0xDanielLopez to center icons inside <a> */
+    text-align: center;
     display: block;
     margin-left: 10px;
     margin-right: 10px;
@@ -71,30 +69,6 @@ body {
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
 }
-
-/* Added by @0xDanielLopez to align icons inside <a> */
-.findmeon{
-    position: relative;
-    background-color: transparent;
-    color: var(--accentColor);
-    /*border: solid var(--accentColor) 2px;
-    border-radius: 10px;*/
-    font-size: 18px;
-    text-align: center; /* Commented by @0xDanielLopez to center icons inside <a> */
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    padding: 5px; /* 17px */
-    text-decoration: none;
-    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
-    -webkit-tap-highlight-color: transparent;
-}
-
-a:not(.findmeon) i {
-    padding-left:44%;
-}
-/* End added */
 
 @media (hover: hover) {
     .link:hover {
@@ -192,7 +166,7 @@ a:not(.findmeon) i {
     width: auto;
     height: auto;
     margin: 56px;
-    background-color: var(--accentColor);
+    background-color: var(--bgColor);
     /* transform: rotate(32deg); */
     transform: scale(0);
     transition: .5s ease-in-out;
@@ -200,11 +174,10 @@ a:not(.findmeon) i {
 
 .popup-quote {
     font-family : Baskerville, Georgia, serif;
-    /* font-style : italic; */
+    font-style : italic;
     position: flex;
     color: var(--accentColor);
     padding: 20px;
-    background-color: var(--bgColor);
     text-align: center;
     font-size: 1rem;
 }
