@@ -74,6 +74,10 @@ body {
     margin: 27px auto;
 }
 
+.link-text {
+    line-height: 18px;
+}
+
 .link {
     position: relative;
     background-color: transparent;
